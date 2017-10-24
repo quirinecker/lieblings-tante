@@ -40,15 +40,12 @@ public class Quirin_Ecker_Lieblingstante {
         System.out.print("Was wollen sie angeben (Geschwindigkeit oder Fahrtdauer): ");
         String wahl = scanner.next();
 
-
         if (wahl.equals("Geschwindigkeit")) {
             System.out.print("Geschwindigkeit in km/h: ");
             geschwindigkeit = scanner.nextDouble();
 
-
             dauer = WEG / geschwindigkeit;
             ankunft = ABFAHRT + dauer;
-
 
             stunde = (int) Math.floor(ankunft);
             minuteindec = ankunft - stunde;
@@ -67,7 +64,6 @@ public class Quirin_Ecker_Lieblingstante {
 
         }
 
-
         else if (wahl.equals("Fahrtdauer")) {
             System.out.print("Fahrtdauer in Stunden: ");
             double fahrtdauer = scanner.nextDouble();
@@ -77,7 +73,6 @@ public class Quirin_Ecker_Lieblingstante {
             System.out.println("Geschwidigkeit: " + geschwindigkeit);
 
         }
-
 
         else {
             System.out.println("Diese Option exestiert nicht oder wurde falsch geschrieben.");
