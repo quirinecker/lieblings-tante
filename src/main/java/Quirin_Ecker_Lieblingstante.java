@@ -30,7 +30,6 @@ public class Quirin_Ecker_Lieblingstante {
         int stunde;
         double minuteindec;
         double minute;
-        double schnecke = 0.00005;
 
         System.out.println("Berechnung der Ankunftszeit bei der Tante");
         System.out.println("=========================================");
